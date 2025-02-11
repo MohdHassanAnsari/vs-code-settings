@@ -1,0 +1,102 @@
+{
+  // === Global Settings ===
+
+  // Apply font settings across all profiles
+  "workbench.settings.applyToAllProfiles": [
+    "editor.fontFamily"
+  ],
+
+  // === Editor Configuration ===
+
+  // Use a font designed for coding with ligatures enabled
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+
+  // Automatically format files on save and paste
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+
+  // Set tab behavior: 2 spaces per tab, no auto-detection to ensure consistency
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+
+  // Enhance code readability with visible whitespace and word wrap
+  "editor.renderWhitespace": "all",
+  "editor.wordWrap": "on",
+
+  // Enable minimap for quick overview of code
+  "editor.minimap.enabled": true,
+
+  // Automatically apply code fixes and source actions on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  // Improve the inline suggestion experience
+  "editor.suggestSelection": "first",
+
+  // Additional editor niceties
+  "editor.parameterHints.enabled": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.autoSurround": "languageDefined",
+  "editor.cursorBlinking": "smooth",
+
+  // === File Handling ===
+
+  // Auto-save files when focus changes
+  "files.autoSave": "onFocusChange",
+
+  // Clean up files by trimming trailing whitespace and ensuring a final newline
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  // Automatically guess file encoding
+  "files.autoGuessEncoding": true,
+
+  // === Workbench Appearance ===
+
+  // Set the theme to One Dark Pro for a sleek, dark interface
+  "workbench.colorTheme": "One Dark Pro",
+
+  // Use a professional icon theme
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Set zoom level to default (0) or adjust as needed
+  "window.zoomLevel": 0,
+
+  // === Terminal Settings ===
+
+  // Use the same preferred font for the integrated terminal
+  "terminal.integrated.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 14,
+
+  // === Search & Explorer Settings ===
+
+  // Exclude common folders from search results for improved performance
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/.git": true
+  },
+
+  // Explorer behavior tweaks for a smoother experience
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  // === Git Integration ===
+
+  // Enable auto-fetching of Git repositories and disable sync confirmation for efficiency
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  // === Navigation & Usability ===
+
+  // Enable breadcrumbs in the editor for easier navigation
+  "breadcrumbs.enabled": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "json.schemas": []
+}
